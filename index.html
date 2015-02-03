@@ -74,7 +74,7 @@
       <div class="ui tabular filter menu">
         <a class="active item" data-tab="unread">Unread</a>
         <a class="item" data-tab="saved">Saved</a>
-        <a class="item" data-tab="all">All</a>
+        <a class="item" data-tab="all">Admin</a>
       </div>
       <div class="ui divided very relaxed selection inbox list active tab" data-tab="unread">
         <a class="active item">
@@ -144,12 +144,13 @@
         </a>
       </div>
       <div class="ui divided very relaxed inbox selection list tab" data-tab="all">
-        <a class="item">
-          <div class="left floated ui star rating">
-            <i class="link icon"></i>
-          </div>
-          <div class="right floated date">Sep 14, 2013</div>
-          <div class="description">There turns out there is only one article under all.</div>
+         <form class="form-signin" role="form">
+             <h2 class="form-signin-heading">Please sign in</h2>
+             <input type="text" name="username" class="form-control" placeholder="Username" required="" autofocus="">
+             <input type="password" name="password" class="form-control" placeholder="Password" required="">
+
+             <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+         </form>
         </a>
       </div>
 
